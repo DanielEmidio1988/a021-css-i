@@ -1,0 +1,44 @@
+/* Utilize as propriedades do box model para deixar os articles iguais aos da imagem anexada. Atribua estas propriedades à classe `bloco`; */
+/* 
+a) Utilize os ids para atribuir as bordas e cores de fundo dos articles, de acordo com o modelo;
+b) Defina "Helvetica" como a fonte padrão do elemento `main`. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bloco{
+    color: white;
+    padding-bottom: 0px;
+    padding-top:15px;
+    padding-left: 25px;
+    margin: 20px 0px -10px 10px;
+    width: 300px;  
+    height: 60px;
+    border-radius: 10px;
+}
+
+#bloco-1{
+    background-color: #F08650;
+    border: solid #F0D0BA 4px;
+}
+
+#bloco-2{
+    background-color: #295E35;
+    border: solid #5CD477 4px;
+}
+
+#bloco-3{
+    background-color: #0F2607;
+    border: dashed #A7C49E 4px;
+}
+
+#bloco-4{
+    background-color: #dd4a00;
+    border: dashed #FFB87A 4px;
+}
+
+main{
+    font-family: Helvetica;
+}
